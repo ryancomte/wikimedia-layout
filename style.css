@@ -5,7 +5,8 @@ html, body {
 	font-family: sans-serif;
 	line-height: 1.9em;
 	max-height: 950px;
-	max-width: 625px;
+	max-width: 1000px;
+	padding: 10px;
 }
 
 a {
@@ -35,4 +36,5 @@ a:hover {
 footer {
 	border-top: 1px solid #AAAAAA;
 	text-align: center;
+	font-size: .8em;
 }
