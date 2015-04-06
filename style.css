@@ -1,18 +1,36 @@
 html, body {
 	height: 100%;
-	width: 100%;
+	width: 90%;
 	margin: 0;
 	font-family: sans-serif;
-	max-width: 900px;
 	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	font-weight: 300;
+}
+
+a {
+	color: #0645AD;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 .intro {
-	width: 90%;
 	text-align: justify;
-	font-size: 
+	font-size: 1.5em;
 }
 
 .welcome {
 	text-align: right;
+}
+
+footer {
+	border-top: 1px solid #AAAAAA;
+}
+
+li {
+	float: left;
 }
